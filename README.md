@@ -22,6 +22,6 @@ If the repository is named differently, GitHub Pages will normally use a URL lik
 `https://Hemanthyadv.github.io/REPOSITORY-NAME/`
 
 ## Notes
-- Resume is included in `assets/Hemanth_Butham_Resume.pdf`.
+- Resume is included in `Hemanth_Butham_Resume.pdf`.
 - The portfolio uses only information supported by the provided resume.
 - Project 4 and 5 are intentionally editable placeholders.
