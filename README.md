@@ -1,27 +1,22 @@
 # Butham Hemanth — Portfolio
 
-A dark-futuristic, responsive static portfolio designed for GitHub Pages.
+A responsive dark-themed portfolio for GitHub Pages focused on Data Engineering, AI/ML and Python.
 
-## Quick edit
-Open `index.html` and search for:
-- `Live Demo`
-- `GitHub`
-- `Placeholder`
-- `PHOTO_NAME`
+## Featured projects
+1. [Industrial Anomaly Detection Pipeline](https://github.com/Hemanthyadv/industrial-anomaly-detection-pipeline) — Kafka, Spark Structured Streaming, Delta Lake, anomaly detection, FastAPI and observability.
+2. [Distributed ETL & Data Warehouse](https://github.com/Hemanthyadv/data-warehouse-project) — Spark ETL, Medallion Architecture, dimensional modeling and analytics engineering.
+3. [Time-Series Transformer Forecasting](https://github.com/Hemanthyadv/timeseries-transformer-forecasting) — Transformer forecasting, anomaly detection, PyTorch, FastAPI and Docker.
+4. [GNN Fraud Detection](https://github.com/Hemanthyadv/gnn-fraud-detection) — heterogeneous GNNs, fraud detection, class-imbalance handling and explainability.
+5. [Causal Inference Platform](https://github.com/Hemanthyadv/causal-inference-platform) — production-oriented causal inference and data science workflows.
 
-Replace the `href="#"` values on project buttons with your real URLs.
+## Included
+- Responsive hero, navigation, metrics, about, skills, projects, experience, education, certifications and contact sections.
+- Direct links to GitHub, LinkedIn and email.
+- Resume download from `Hemanth_Butham_Resume.pdf`.
+- Mobile navigation, scroll reveal animations and theme toggle.
 
-## Free GitHub Pages hosting
-1. Create a GitHub repository named `Hemanthyadv.github.io`.
-2. Upload `index.html`, `style.css`, `script.js`, and the `assets` folder.
-3. In GitHub: Settings → Pages.
-4. Select **Deploy from a branch** → `main` → `/ (root)` → Save.
-5. Your site will be available at `https://hemanthyadv.github.io/`.
+## GitHub Pages
+The repository is named `Hemanthyadav.github.io`, so GitHub Pages can publish it at:
+`https://hemanthyadv.github.io/`
 
-If the repository is named differently, GitHub Pages will normally use a URL like:
-`https://Hemanthyadv.github.io/REPOSITORY-NAME/`
-
-## Notes
-- Resume is included in `Hemanth_Butham_Resume.pdf`.
-- The portfolio uses only information supported by the provided resume.
-- Project 4 and 5 are intentionally editable placeholders.
+In GitHub, open **Settings → Pages**, choose **Deploy from a branch → main → /(root)**, and save if Pages is not already enabled.
