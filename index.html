@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Butham Hemanth — Data Engineering, AI/ML and Python portfolio.">
-<title>Butham Hemanth | Data Engineering • AI/ML • Python</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Butham Hemanth — Data Engineering, AI/ML and Python portfolio.">
+  <meta name="theme-color" content="#03070d">
+  <title>Butham Hemanth | Data Engineering • AI/ML • Python</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="grid-bg"></div>
 <header class="nav">
   <a class="brand" href="#home"><span>BH</span> HEMANTH</a>
-  <button class="menu" aria-label="Open menu">☰</button>
+  <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
   <nav>
     <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
     <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a>
@@ -22,98 +23,63 @@
   </nav>
   <button class="theme" aria-label="Toggle theme">◐</button>
 </header>
-
 <main>
 <section id="home" class="hero section">
   <div class="hero-copy reveal">
     <div class="eyebrow">DATA ENGINEERING <i>•</i> AI/ML <i>•</i> PYTHON</div>
     <h1>Hi, I’m<br><strong>Butham <span>Hemanth</span></strong></h1>
-    <p class="lead">Building data-driven solutions, automating technical workflows, and turning complex information into reliable systems.</p>
-    <p class="summary">Computer Science graduate with hands-on experience in data engineering, full-stack development, software license compliance, Python automation, SQL, Git/GitHub and AWS fundamentals.</p>
+    <p class="lead">Building reliable data systems and practical AI solutions — from real-time pipelines and warehouses to graph learning, forecasting, and causal inference.</p>
+    <p class="summary">Computer Science graduate with hands-on experience in data engineering, Python automation, SQL, Git/GitHub, AWS fundamentals and production-oriented AI/ML systems.</p>
     <div class="actions">
       <a class="btn primary" href="Hemanth_Butham_Resume.pdf" download>↓ &nbsp;Download Resume</a>
-      <a class="btn" href="#contact">↗ &nbsp;Contact Me</a>
+      <a class="btn" href="#projects">↗ &nbsp;View My Work</a>
+      <a class="btn" href="#contact">✉ &nbsp;Contact Me</a>
     </div>
     <div class="socials">
-      <a href="https://github.com/Hemanthyadv" target="_blank" rel="noreferrer">◉ GitHub</a>
-      <a href="https://www.linkedin.com/in/butham-hemanth/" target="_blank" rel="noreferrer">in LinkedIn</a>
+      <a href="https://github.com/Hemanthyadv" target="_blank" rel="noopener noreferrer">◉ GitHub</a>
+      <a href="https://www.linkedin.com/in/butham-hemanth/" target="_blank" rel="noopener noreferrer">in LinkedIn</a>
       <a href="mailto:b.hemanthyadav24@gmail.com">✉ Email</a>
     </div>
   </div>
   <div class="hero-art reveal">
-    <div class="halo"></div>
-    <div class="nodes"></div>
-    <div class="wave"></div>
-    <div class="portrait">
-      <img src="hemanth_second_photo.png" alt="Butham Hemanth professional portrait">
-    </div>
+    <div class="halo"></div><div class="nodes"></div><div class="wave"></div>
+    <div class="portrait"><img src="hemanth_second_photo.png" alt="Butham Hemanth professional portrait" loading="eager"></div>
   </div>
 </section>
-
+<section class="metrics section reveal">
+  <div><b>5+</b><span>End-to-End Projects</span></div><div><b>50K+</b><span>Records Processed</span></div><div><b>99.9%</b><span>Data Integrity</span></div><div><b>Production</b><span>Data & AI Systems</span></div>
+</section>
 <section id="about" class="panel section reveal">
-  <div class="about">
-    <div>
-      <div class="section-kicker">01 / ABOUT</div><h2>Curious about data.<br><span>Serious about systems.</span></h2>
-      <p>I’m a Computer Science graduate who enjoys turning raw data and complex technical requirements into structured, dependable solutions.</p>
-      <p>My experience spans data engineering, full-stack development, software license compliance, Python automation and technical documentation. I’m especially interested in work where data quality, automation and practical problem-solving meet.</p>
-    </div>
-    <div class="stats">
-      <div><b>50K+</b><small>records processed</small></div>
-      <div><b>99.9%</b><small>data integrity</small></div>
-      <div><b>45%</b><small>manual audit effort reduced</small></div>
-    </div>
-  </div>
+  <div class="about"><div><div class="section-kicker">01 / ABOUT</div><h2>Curious about data.<br><span>Serious about systems.</span></h2>
+    <p>I’m a Computer Science graduate who enjoys turning raw data and complex technical requirements into structured, dependable solutions.</p>
+    <p>My experience spans data engineering, full-stack development, Python automation and technical workflows. I’m especially interested in work where data quality, automation and practical problem-solving meet.</p></div>
+    <div class="stats"><div><b>50K+</b><small>records processed</small></div><div><b>99.9%</b><small>data integrity</small></div><div><b>45%</b><small>manual audit effort reduced</small></div></div></div>
 </section>
-
-<section id="skills" class="section reveal">
-  <div class="section-kicker">02 / TOOLKIT</div><h2>Technical <span>Skills</span></h2>
+<section id="skills" class="section reveal"><div class="section-kicker">02 / TOOLKIT</div><h2>Technical <span>Skills</span></h2>
   <div class="skill-grid">
-    <article><h3>Programming</h3><div class="chips"><b>Python</b><b>SQL</b><b>JavaScript</b><b>Java</b><b>C</b></div></article>
-    <article><h3>Data & Systems</h3><div class="chips"><b>MySQL</b><b>MongoDB</b><b>Data Pipelines</b><b>Data Validation</b><b>Pandas</b></div></article>
-    <article><h3>Cloud & Tools</h3><div class="chips"><b>AWS S3</b><b>AWS Glue</b><b>Athena</b><b>Git</b><b>GitHub</b><b>Jira</b><b>VS Code</b></div></article>
-    <article><h3>Compliance & Engineering</h3><div class="chips"><b>Dependency Auditing</b><b>License Compliance</b><b>Regex</b><b>Code Review</b><b>Technical Documentation</b></div></article>
+    <article><h3>Programming</h3><div class="chips"><b>Python</b><b>SQL</b><b>JavaScript</b><b>Java</b><b>C</b><b>Bash</b></div></article>
+    <article><h3>Data Engineering</h3><div class="chips"><b>ETL</b><b>Apache Spark</b><b>Kafka</b><b>Delta Lake</b><b>Data Warehousing</b><b>Medallion Architecture</b><b>Data Quality</b></div></article>
+    <article><h3>AI / ML</h3><div class="chips"><b>GNNs</b><b>PyTorch Geometric</b><b>scikit-learn</b><b>Anomaly Detection</b><b>Time Series</b><b>Explainability</b></div></article>
+    <article><h3>Cloud / DevOps</h3><div class="chips"><b>AWS</b><b>Docker</b><b>FastAPI</b><b>GitHub Actions</b><b>Prometheus</b><b>Grafana</b><b>Automated Testing</b></div></article>
   </div>
 </section>
-
-<section id="projects" class="section reveal">
-  <div class="section-kicker">03 / SELECTED WORK</div>
-  <div class="heading-row"><div><h2>Projects <span>in focus</span></h2><p class="muted">Five editable slots — replace the placeholder links when your demos are ready.</p></div></div>
+<section id="projects" class="section reveal"><div class="section-kicker">03 / SELECTED WORK</div><div class="heading-row"><div><h2>Projects <span>in focus</span></h2><p class="muted">Five recent projects across data engineering, AI/ML and analytics.</p></div></div>
   <div class="projects">
-    <article class="project featured"><div class="project-no">01</div><div class="icon">⌘</div><h3>Open-Source License & Dependency Parser</h3><p>Python tooling to audit 120+ open-source dependencies, parse license headers and automate compliance-oriented annotation and dependency mapping.</p><div class="tags">Python · Regex · Git · Jira</div><div class="project-links"><a href="#" onclick="return placeholder(event)">Live Demo ↗</a><a href="#" onclick="return placeholder(event)">GitHub ↗</a></div></article>
-    <article class="project"><div class="project-no">02</div><div class="icon">⌁</div><h3>Intelligent Student Performance Analytics System</h3><p>Data analytics system managing 1,500+ student records with SQL auditing and automated Python validation across six academic parameters.</p><div class="tags">Python · MySQL · Jira</div><div class="project-links"><a href="#" onclick="return placeholder(event)">Live Demo ↗</a><a href="#" onclick="return placeholder(event)">GitHub ↗</a></div></article>
-    <article class="project"><div class="project-no">03</div><div class="icon">↗</div><h3>Customer Churn Prediction & Data Pipeline</h3><p>Cleaned and processed 10,000+ records and trained classification models reaching 86% accuracy for customer churn prediction.</p><div class="tags">Python · Pandas · ML</div><div class="project-links"><a href="#" onclick="return placeholder(event)">Live Demo ↗</a><a href="#" onclick="return placeholder(event)">GitHub ↗</a></div></article>
-    <article class="project editable"><div class="project-no">04</div><div class="icon">☁</div><h3>AWS Data Engineering Project</h3><p>Placeholder for your next AWS/data pipeline project. Replace this description and links later.</p><div class="tags">AWS · Data Engineering</div><div class="project-links"><a href="#" onclick="return placeholder(event)">Live Demo ↗</a><a href="#" onclick="return placeholder(event)">GitHub ↗</a></div></article>
-    <article class="project editable"><div class="project-no">05</div><div class="icon">⌘</div><h3>Full-Stack Web Application</h3><p>Placeholder for another strong project. Keep only projects that demonstrate meaningful technical work.</p><div class="tags">HTML · CSS · JavaScript</div><div class="project-links"><a href="#" onclick="return placeholder(event)">Live Demo ↗</a><a href="#" onclick="return placeholder(event)">GitHub ↗</a></div></article>
+    <article class="project featured"><div class="project-no">01</div><div class="icon">⌁</div><h3>Industrial Anomaly Detection Pipeline</h3><p>Production-grade Industrial IoT platform connecting Kafka, Spark Structured Streaming, Delta Lake feature storage, multi-model anomaly detection, FastAPI inference and Prometheus/Grafana observability.</p><div class="tags">Kafka · Spark · Delta Lake · FastAPI · ML</div><div class="project-links"><a href="https://github.com/Hemanthyadv/industrial-anomaly-detection-pipeline" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+    <article class="project"><div class="project-no">02</div><div class="icon">▦</div><h3>Distributed ETL & Data Warehouse</h3><p>End-to-end e-commerce analytics platform using Spark ETL, Medallion Architecture, dimensional modeling, star schema, SCD handling, API, testing and monitoring.</p><div class="tags">Spark · ETL · Warehouse · SQL · Docker</div><div class="project-links"><a href="https://github.com/Hemanthyadv/data-warehouse-project" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+    <article class="project"><div class="project-no">03</div><div class="icon">↗</div><h3>Time-Series Transformer Forecasting</h3><p>Production-oriented Transformer system for multi-step forecasting and anomaly detection, with FastAPI serving, Docker deployment and an LSTM baseline.</p><div class="tags">PyTorch · Transformer · Forecasting · FastAPI</div><div class="project-links"><a href="https://github.com/Hemanthyadv/timeseries-transformer-forecasting" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+    <article class="project"><div class="project-no">04</div><div class="icon">◎</div><h3>GNN Fraud Detection</h3><p>Heterogeneous graph neural network system for financial fraud detection with FraudGAT, GraphSAGE and HeteroGNN architectures, class-imbalance handling and explainability.</p><div class="tags">PyG · GNN · Fraud ML · Explainability</div><div class="project-links"><a href="https://github.com/Hemanthyadv/gnn-fraud-detection" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
+    <article class="project"><div class="project-no">05</div><div class="icon">◌</div><h3>Causal Inference Platform</h3><p>Production-oriented causal inference platform focused on structured causal analysis and reproducible data science workflows.</p><div class="tags">Python · Causal ML · Data Science</div><div class="project-links"><a href="https://github.com/Hemanthyadv/causal-inference-platform" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></article>
   </div>
 </section>
-
-<section id="experience" class="section reveal">
-  <div class="section-kicker">04 / EXPERIENCE</div><h2>Where I’ve <span>worked</span></h2>
-  <div class="timeline">
-    <article><div class="date">OCT 2024 — DEC 2024</div><div><h3>Web Full Stack Developer Intern</h3><h4>EduSkills Foundation · Remote, India</h4><ul><li>Engineered responsive full-stack modules across 10+ web templates using HTML5, CSS3, JavaScript and backend services.</li><li>Reviewed 25+ pull requests and resolved syntax/merge conflicts using Git/GitHub.</li><li>Audited third-party libraries and dependencies for compatibility and compliance.</li></ul></div></article>
-    <article><div class="date">JUL 2024 — SEP 2024</div><div><h3>Data Engineering Intern</h3><h4>EduSkills Foundation · under AICTE & AWS Academy · Remote, India</h4><ul><li>Developed data pipelines processing 50,000+ records with automated Python validation and 99.9% integrity.</li><li>Configured storage, transformation and compliance checks across AWS services, reducing manual audit effort by 45%.</li><li>Maintained structured data logs and technical documentation.</li></ul></div></article>
-  </div>
-</section>
-
-<section id="education" class="section reveal two-col">
-  <div><div class="section-kicker">05 / EDUCATION</div><h2>Academic <span>foundation</span></h2></div>
-  <div class="edu-card"><div><h3>SR University</h3><p>Bachelor of Technology in Computer Science and Engineering</p><p class="muted">Nov 2022 — Apr 2026 · Telangana, India</p></div><strong>8.925 / 10.0<br><small>CGPA</small></strong></div>
-</section>
-
-<section id="certifications" class="section reveal">
-  <div class="section-kicker">06 / CERTIFICATIONS</div><h2>Credentials & <span>learning</span></h2>
-  <div class="certs">
-    <div><b>Cisco Networking Academy</b><span>Python Essentials 1 & 2 · 90%+ Score</span></div>
-    <div><b>MongoDB University</b><span>Introduction to Databases & MongoDB</span></div>
-    <div><b>Cisco Networking Academy</b><span>CCNA Module 1 & Module 2</span></div>
-    <div><b>Certified Program</b><span>Web Development with HTML, CSS, JS</span></div>
-  </div>
-</section>
-
-<section id="contact" class="contact panel reveal">
-  <div><div class="section-kicker">07 / CONTACT</div><h2>Let’s build something<br><span>useful.</span></h2><p>Open to opportunities in Data Engineering, AI/ML and Software Development.</p></div>
-  <div class="contact-info"><a href="mailto:b.hemanthyadav24@gmail.com">✉ <span>b.hemanthyadav24@gmail.com</span></a><a href="tel:+919063630921">⌕ <span>+91 9063630921</span></a><a href="https://www.linkedin.com/in/butham-hemanth/" target="_blank">in <span>LinkedIn</span></a><a href="https://github.com/Hemanthyadv" target="_blank">◉ <span>GitHub</span></a></div>
-</section>
+<section id="experience" class="section reveal"><div class="section-kicker">04 / EXPERIENCE</div><h2>Where I’ve <span>worked</span></h2><div class="timeline">
+  <article><div class="date">JUL 2026 — PRESENT</div><div><h3>AI Agent Evaluation Fellow</h3><h4>Handshake AI Fellowship · Remote, India</h4><ul><li>Build Docker-based coding environments and benchmarking tasks for evaluating AI coding agents on complex software-engineering workflows.</li><li>Develop Python automation for validating agent outputs, improving reproducibility and debugging efficiency.</li></ul></div></article>
+  <article><div class="date">OCT 2024 — DEC 2024</div><div><h3>Web Full Stack Developer Intern</h3><h4>EduSkills Foundation · India</h4><ul><li>Built responsive web interfaces with HTML, CSS and JavaScript and integrated front-end and back-end components.</li><li>Worked with Git/GitHub and technical workflows across development tasks.</li></ul></div></article>
+  <article><div class="date">JUL 2024 — SEP 2024</div><div><h3>Data Engineering Intern</h3><h4>EduSkills Foundation · India</h4><ul><li>Worked on AWS-oriented data projects and ETL workflows, improving data pipeline efficiency.</li><li>Supported structured data processing, validation and technical documentation.</li></ul></div></article>
+</div></section>
+<section id="education" class="section reveal two-col"><div><div class="section-kicker">05 / EDUCATION</div><h2>Academic <span>foundation</span></h2></div><div class="edu-card"><div><h3>SR University</h3><p>Bachelor of Technology in Computer Science and Engineering</p><p class="muted">2022 — 2026 · Telangana, India</p></div><strong>8.93 / 10.0<br><small>CGPA</small></strong></div></section>
+<section id="certifications" class="section reveal"><div class="section-kicker">06 / CERTIFICATIONS</div><h2>Credentials & <span>learning</span></h2><div class="certs"><div><b>Cisco Networking Academy</b><span>Python Essentials 1 & 2</span></div><div><b>MongoDB University</b><span>Introduction to Databases & MongoDB</span></div><div><b>Cisco Networking Academy</b><span>CCNA Module 1 & Module 2</span></div><div><b>Certified Program</b><span>Web Development with HTML, CSS, JavaScript</span></div></div></section>
+<section id="contact" class="contact panel reveal"><div><div class="section-kicker">07 / CONTACT</div><h2>Let’s build something<br><span>useful.</span></h2><p>Open to opportunities in Data Engineering, AI/ML and Software Development.</p></div><div class="contact-info"><a href="mailto:b.hemanthyadav24@gmail.com">✉ <span>b.hemanthyadav24@gmail.com</span></a><a href="tel:+919063630921">⌕ <span>+91 9063630921</span></a><a href="https://www.linkedin.com/in/butham-hemanth/" target="_blank" rel="noopener noreferrer">in <span>LinkedIn</span></a><a href="https://github.com/Hemanthyadv" target="_blank" rel="noopener noreferrer">◉ <span>GitHub</span></a></div></section>
 </main>
 <footer>© <span id="year"></span> Butham Hemanth · Built with intention, data & code.</footer>
 <script src="script.js"></script>
